@@ -1,0 +1,12 @@
+# Build output
+build/
+dist/
+*.spec
+__pycache__/
+*.pyc
+
+# Machine-specific settings and generated files (never commit these)
+app_config.json
+labels/
+*.lock
+*.tmp

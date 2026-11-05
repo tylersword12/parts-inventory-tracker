@@ -1,0 +1,9 @@
+- Barcodes are now drawn pixel-perfect so hardware scanners (like the CF-33) read them reliably
+- Scans work whether the scanner sends Enter, Tab, or nothing at all
+- Scan Station: every scan goes to the lookup, even if you tapped the quantity box
+- Barcode lookup ignores upper/lower case (Caps Lock no longer breaks scans)
+- Label sheets save as a print-ready PDF (print at "Actual size")
+- Fixed "cannot open resource" error when generating labels
+- Fixed label sheet crash ("cannot access local variable 'pad'")
+- Label sheets fit 27 labels per page with larger, readable text
+- Added automatic updates from GitHub
